@@ -1,0 +1,60 @@
+
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);    
+    grid-template-rows: auto 6em auto 1fr auto;
+    grid-gap:0.5em;
+}
+.container > *{
+    justify-content: center;
+}
+.future-goals-title{
+    display: flex;
+    justify-content: left;
+    grid-column: span 3;
+    background-color: rgba(140, 181, 119, 0.825);
+    color: white;
+    width: 60%;
+    border-radius: 10px;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+}
+.future-goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-figure{
+    margin: 0;
+    height: 360px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.grid-background-image1{
+    background-image: url("./Images/deforestation.jpg");
+}
+.grid-background-image2{
+    background-image: url("./Images/Business_Analyst_Roles-02.jpg");
+}
+.grid-background-image3{
+    background-image: url("./Images/115329772-group-of-casual-business-meeting-and-discussing-with-laptop-computer-creative-business-people-presen.jpg");
+}
+.grid-background-image4{
+    background-image: url("./Images/superfund-site.jpeg");
+}
+.grid-background-image5{
+    background-image: url("./Images/Web_Devlopment.png");
+}
+.grid-background-image6{
+    background-image: url("./Images/Plant_Restoration.jpg");
+}
+
+
+
+
