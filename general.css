@@ -58,7 +58,11 @@ nav{
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Mono', monospace;}
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    overflow: scroll;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,7 +70,7 @@ nav {
     padding: 15px;
 }
 nav img{
-    width: 50%;
+    width: 20vw;
     height: auto;
 }
 .nav-right{
@@ -84,4 +88,39 @@ a {
 a:hover{
     background-color: #ee6969ca;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+/* footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right{
+
+} */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+footer img{
+    width: 20vw;
+    height: auto;
+}
+.footer-right{
+    display: flex;    
+    gap: 15px;
+}
+.footer-right ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 5px;
+    background-color:  rgb(147, 209, 252); 
+    border-radius: 8px;
 }
